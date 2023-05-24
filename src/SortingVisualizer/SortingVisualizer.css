@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    justify-content: center;
+    height: 35rem;
+
+}
+
+.array-bar{
+    width: 10px;
+    background-color: #aa6f73;
+    margin: 2px 2px;
+}
+
+.button-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 1rem;
+}
+button{
+    color: white;
+    background-color: #66545e;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #aa6f73;
+}
